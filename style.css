@@ -118,6 +118,9 @@
                 inset 0 0 30px rgba(74, 103, 255, 0.2);
             animation: profileGlow 3s ease-in-out infinite alternate;
             object-fit: cover;
+            object-position: center;
+            /* Garantit que l'image reste parfaitement circulaire */
+            flex-shrink: 0;
         }
 
         @keyframes profileGlow {
