@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Garein - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-container"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Main Menu Section -->
+    <section class="section main-menu" id="menu">
+        <div class="container">
+            <div class="profile-section">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiByeD0iMTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIvPgo8ZGVmcz4KPGV4aWFsR3JhZGllbnQgaWQ9ImdyYWRpZW50IiBjeDE9IjAuNSIgY3kxPSIwIiBjeDI9IjAuNSIgY3kyPSIxIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRhNjdmZiIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4YTRmZmYiLz4KPC9yYWRpYWxHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4="  class="profile-image" id="profileImg">
+                
+                <div class="title-section">
+                    <h1 class="glitch" data-text="<MARINE GAREIN/>">
+                        &lt;MARINE<br>GAREIN/&gt;
+                    </h1>
+                    <h2>FULLSTACK WEB DEVELOPER</h2>
+                    
+                    <div class="code-text">
+                        <div><span class="keyword">Reprogrammation</span> en cours : de</div>
+                        <div><span class="string">l'enseignement musical</span> &</div>
+                        <div><span class="string">conceptrice pédagogique</span> au</div>
+                        <div><span class="string">développement web</span>. Prête à</div>
+                        <div>[dé]coder des mondes numériques.</div>
+                        <br>
+                        <div>Implémentation de <span class="keyword">créativité</span> et</div>
+                        <div>fonctionnalités dans des projets</div>
+                        <div>impactants, <span class="keyword">accessibles</span> et</div>
+                        <div>fiables : <span class="status">status 201</span></div>
+                        <br>
+                        <div>Recherche d'alternance pour</div>
+                        <div>Automne 2025, <span class="keyword">rythme 4 jours</span></div>
+                        <div><span class="keyword">entreprise / 1 jour Campus</span> :</div>
+                        <div class="loading">Loading<span class="loading">...</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="game-button btn-download" onclick="downloadCV()">
+                    TÉLÉCHARGER LE LORE
+                </button>
+                <button class="game-button btn-start" onclick="startGame()">
+                    COMMENCER
+                </button>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div>↓ SCROLL TO EXPLORE ↓</div>
+        </div>
+    </section>
+
+    <!-- Second Section -->
+    <section class="section second-section" id="game">
+        <div class="nav-buttons">
+            <a href="#" class="nav-btn lore" onclick="downloadCV()">LORE</a>
+            <a href="#" class="nav-btn back" onclick="backToMenu()">← BACK TO MENU</a>
+        </div>
+
+        <h2 class="glitch" data-text="PORTFOLIO LOADING...">
+            PORTFOLIO LOADING...
+        </h2>
+        
+        <div class="code-text" style="text-align: center; font-size: 1.2rem;">
+            <div><span class="keyword">// TODO:</span> Intégrer Three.js</div>
+            <div><span class="keyword">// TODO:</span> Composants React</div>
+            <div><span class="keyword">// TODO:</span> Projets interactifs</div>
+            <div><span class="string">// En cours de développement...</span></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
