@@ -164,8 +164,8 @@
 
         .code-text {
             font-family: 'Fira Code', monospace;
-            font-size: 0.9rem;
-            color: #888;
+            font-size: 1rem;
+            color: whitesmoke;
             line-height: 1.6;
             text-align: left;
             margin-bottom: 2rem;
