@@ -234,7 +234,7 @@
         .btn-download:hover {
             background: var(--cyber-yellow);
             color: black;
-            box-shadow: 0 0 30px rgba(255, 255, 74, 0.7);
+            box-shadow: 0 0 30px #ffff4ab3;
             transform: scale(1.05);
         }
 
