@@ -26,8 +26,6 @@
             link.href = 'cv.pdf';
             // Option 2: Fichier dans un dossier assets
             // link.href = 'assets/cv.pdf';
-            // Option 3: Fichier hébergé en ligne
-            // link.href = 'https://votre-site.com/cv.pdf';
             
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
