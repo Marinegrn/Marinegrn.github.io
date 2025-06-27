@@ -20,15 +20,14 @@
         }
 
         function downloadCV() {
-            // Create a temporary link to download CV
             const link = document.createElement('a');
-            // Option 1: Fichier dans le même dossier
-            link.href = 'cv.pdf';
-            // Option 2: Fichier dans un dossier assets
-            // link.href = 'assets/cv.pdf';
             
+            link.href = 'cv.pdf';
+            // Fichier dans le dossier assets
+            link.href = 'assets/CV_MarineGarein_finBootcamp.pdf';
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
+
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
