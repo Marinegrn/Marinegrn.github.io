@@ -22,9 +22,8 @@
         function downloadCV() {
             const link = document.createElement('a');
             
-            link.href = 'cv.pdf';
             // Fichier dans le dossier assets
-            link.href = 'assets/CV_MarineGarein_finBootcamp.pdf';
+            link.href = '/PORTFOLIO_GITHUB.io/assets/CV_MarineGarein_finBootcamp.pdf';
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
 
