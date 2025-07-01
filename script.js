@@ -23,7 +23,7 @@
             const link = document.createElement('a');
             
             // Fichier dans le dossier assets
-            link.href = '/PORTFOLIO_GITHUB.IO/assets/CV_MarineGarein_finBootcamp.pdf';
+            link.href = 'ssets/CV_MarineGAREIN_finBootcamp.pdf';
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
 
