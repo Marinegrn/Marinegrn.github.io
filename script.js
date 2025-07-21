@@ -1,8 +1,7 @@
-        // Replace placeholder image with actual image when available
         document.addEventListener('DOMContentLoaded', function() {
-            // You can replace this URL with the actual image
+
             const profileImg = document.getElementById('profileImg');
-            // profileImg.src = 'path/to/your/actual/image.jpg';
+
         });
 
         function startGame() {
