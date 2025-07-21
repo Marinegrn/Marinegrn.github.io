@@ -23,7 +23,7 @@
             const link = document.createElement('a');
             
             // Fichier dans le dossier assets
-            link.href = '/assets/CV_MarineGAREIN_finBootcamp.pdf';
+            link.href = '/assets/MarineGAREIN_FrontEnd_CV.pdf';
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
 
