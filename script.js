@@ -22,7 +22,7 @@
             const link = document.createElement('a');
             
             // Fichier dans le dossier assets
-            link.href = '/assets/MarineGAREIN_FrontEnd_CV.pdf';
+            link.href = '/assets/GareinMarine_CV-FullStack.pdf';
             link.download = 'Marine_Garein_CV.pdf';
             link.style.display = 'none';
 
